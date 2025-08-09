@@ -63,6 +63,10 @@ function App() {
                   <li>🗄️ MySQL</li>
                   <li>🗄️ Oracle</li>
                   <li>🟩 Vue</li>
+                  <li>🟦 Node.js</li>
+                  <li>🟪 Vite</li>
+                  <li>🟫 Git</li>
+                  <li>🟧 GitHub</li>
                 </ul>
               </section>
               <section className="formacao-experiencia">
