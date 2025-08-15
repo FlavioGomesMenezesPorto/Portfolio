@@ -2,15 +2,32 @@
 
 /* Mantém o restante do seu CSS abaixo do @import */
 
+.section {
+  background: #23243a;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: #00dfd8;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
 .formacao-cards, .experiencia-cards {
   margin-bottom: 2rem;
 }
+
 .card-list {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+
 .card {
   background: linear-gradient(135deg, #23243a 60%, #181a20 100%);
   border-radius: 14px;
@@ -23,20 +40,24 @@
   align-items: flex-start;
   transition: transform 0.2s, box-shadow 0.2s;
 }
+
 .card:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 8px 32px rgba(0,223,216,0.22);
 }
+
 .card h3 {
   margin: 0 0 0.5rem 0;
   color: #00dfd8;
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 .card p {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
 }
+
 .card-status {
   background: #00dfd8;
   color: #181a20;
@@ -47,6 +68,7 @@
   font-weight: 500;
   letter-spacing: 0.5px;
 }
+
 @media (max-width: 900px) {
   .card-list,
   .projetos-lista {
@@ -60,17 +82,13 @@
     align-items: flex-start;
   }
 }
+
 @media (max-width: 700px) {
   main {
     max-width: 100%;
     padding: 0 0.5rem;
   }
   .header-content {
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
-  }
-  .sobre-mim-content {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
@@ -97,12 +115,33 @@
   }
 }
 
+@media (max-width: 600px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-pic-large {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+  }
+  .section {
+    padding: 1rem;
+  }
+  .projetos-lista, .card-list, .contato-lista {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
 .header-content {
   display: flex;
   align-items: center;
   gap: 2rem;
   justify-content: center;
 }
+
 .profile-pic-large {
   width: 110px;
   height: 110px;
@@ -111,6 +150,7 @@
   border: 4px solid #00dfd8;
   box-shadow: 0 2px 12px rgba(0,0,0,0.18);
 }
+
 body {
   font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
   background: #181a20;
@@ -133,6 +173,7 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
 }
+
 .header h2 {
   margin: 0.5rem 0 0 0;
   font-size: 1.3rem;
@@ -145,37 +186,12 @@ main {
   padding: 0 1rem;
 }
 
-.sobre-mim {
-  background: #23243a;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  padding: 2rem;
-  margin-bottom: 2rem;
-}
-.sobre-mim-content {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-.profile-pic {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border: 4px solid #007cf0;
-}
-.sobre-mim-content p {
-  font-size: 1.1rem;
-}
-
-.projetos {
-  margin-bottom: 2rem;
-}
 .projetos-lista {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
 }
+
 .projeto-card {
   background: #23243a;
   border-radius: 14px;
@@ -188,23 +204,28 @@ main {
   display: flex;
   flex-direction: column;
 }
+
 .projeto-card:hover {
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 8px 32px rgba(0,223,216,0.22);
 }
+
 .projeto-img {
   width: 100%;
   height: 140px;
   object-fit: cover;
   border-bottom: 2px solid #181a20;
 }
+
 .projeto-card h3 {
   margin: 1rem 1rem 0.5rem 1rem;
 }
+
 .projeto-card p {
   margin: 0 1rem 1rem 1rem;
   flex: 1;
 }
+
 .projeto-card a {
   color: #00dfd8;
   text-decoration: none;
@@ -212,28 +233,11 @@ main {
   margin: 0 1rem 1rem 1rem;
   align-self: flex-start;
 }
-.projeto-card a:hover {
-  text-decoration: underline;
-}
-.projeto-card h3 {
-  margin-top: 0;
-}
-.projeto-card a {
-  color: #00dfd8;
-  text-decoration: none;
-  font-weight: 500;
-}
+
 .projeto-card a:hover {
   text-decoration: underline;
 }
 
-.habilidades {
-  background: #23243a;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  padding: 2rem;
-  margin-bottom: 2rem;
-}
 .habilidades-lista {
   display: flex;
   gap: 1.5rem;
@@ -242,6 +246,7 @@ main {
   margin: 0;
   flex-wrap: wrap;
 }
+
 .habilidades-lista li {
   background: #181a20;
   color: #00dfd8;
@@ -255,18 +260,12 @@ main {
   gap: 0.5rem;
 }
 
-.contato {
-  background: #23243a;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  padding: 2rem;
-  margin-bottom: 2rem;
-}
 .contato-lista {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
 .contato-item {
   color: #00dfd8;
   text-decoration: none;
@@ -276,9 +275,11 @@ main {
   align-items: center;
   gap: 0.5rem;
 }
+
 .contato-item:hover {
   text-decoration: underline;
 }
+
 .footer {
   background: #181a20;
   color: #888;
@@ -288,6 +289,7 @@ main {
   margin-top: 2rem;
   border-top: 1px solid #23243a;
 }
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -302,9 +304,11 @@ main {
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -320,4 +324,30 @@ main {
 
 .read-the-docs {
   color: #888;
+}
+
+.carta-apresentacao-section .section-title {
+  margin-bottom: 1rem;
+}
+
+.servicos-section ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.servicos-section li {
+  background: #181a20;
+  color: #00dfd8;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
