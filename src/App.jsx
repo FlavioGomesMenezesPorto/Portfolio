@@ -44,11 +44,6 @@ function App() {
           <h2 className="section-title">Formação</h2>
           <div className="card-list formacao-cards">
             <div className="card">
-              <h3>Engenharia da Computação</h3>
-              <p>Instituto Federal do Triângulo Mineiro, Campus Avançado Uberaba Parque Tecnológico</p>
-              <span className="card-status">4º Período - Encerrado (Março de 2022)</span>
-            </div>
-            <div className="card">
               <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
               <p>UNIUBE, Uberaba</p>
               <span className="card-status">5º Período - Cursando (Fevereiro de 2024)</span>
@@ -56,7 +51,7 @@ function App() {
             <div className="card">
               <h3>Técnico Em Desenvolvimento de Sistemas</h3>
               <p>Senac Minas</p>
-              <span className="card-status">5º Período - Finalizado em Julho de 2025</span>
+              <span className="card-status">Finalizado em Julho de 2025</span>
               <a 
                 href="/DiplomaTI.jpg" 
                 download 
@@ -65,6 +60,11 @@ function App() {
               >
                 📄 Baixar Certificado
               </a>
+            </div>
+            <div className="card">
+              <h3>Engenharia da Computação</h3>
+              <p>Instituto Federal do Triângulo Mineiro, Campus Avançado Uberaba Parque Tecnológico</p>
+              <span className="card-status">4º Período - Encerrado (Março de 2022)</span>
             </div>
           </div>
         </section>
