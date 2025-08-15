@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 import linkedinImg from './assets/Linkedin.png';
-import Servicos from './pages/Servicos';
 import './App.css';
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
           <h1 style={{margin: 0, fontSize: "2.2rem", fontWeight: 700, color: "#00dfd8"}}>Flávio Gomes Menezes Porto</h1>
           <span style={{fontSize: "1.1rem", color: "#fff"}}>22 anos</span>
           <span style={{fontSize: "1.1rem", color: "#fff"}}>Uberaba - MG</span>
-          <span style={{fontWeight: "bold", color: "#00dfd8", fontSize: "1.1rem"}}>Profissional</span>
+          <span style={{fontWeight: "bold", color: "#00dfd8", fontSize: "1.1rem"}}>Desenvolvedor Full-Stack</span>
         </div>
       </header>
       <section className="section carta-apresentacao-section" style={{margin: "2rem auto", maxWidth: "700px", background: "#23243a", borderRadius: "12px", boxShadow: "0 2px 8px rgba(0,0,0,0.18)", padding: "2rem"}}>
@@ -59,7 +58,7 @@ function App() {
               <p>Senac Minas</p>
               <span className="card-status">5º Período - Finalizado em Julho de 2025</span>
               <a 
-                href="/public/DiplomaTI.jpg" 
+                href="/DiplomaTI.jpg" 
                 download 
                 className="contato-item"
                 style={{marginTop: '0.7rem'}}
@@ -152,7 +151,7 @@ function App() {
               <span className="card-status">2025</span>
               <p>Sistema para gestão de prontuários eletrônicos em clínicas e hospitais.</p>
               <a 
-                href="/public/prontuarios-1.0-SNAPSHOT-jar-with-dependencies.jar" 
+                href="/prontuarios-1.0-SNAPSHOT-jar-with-dependencies.jar" 
                 download 
                 className="contato-item"
                 style={{marginTop: '0.7rem'}}
@@ -162,9 +161,18 @@ function App() {
             </div>
           </div>
         </section>
-        <Routes>
-          <Route path="/servicos" element={<Servicos />} />
-        </Routes>
+        <section className="section servicos-section">
+          <h2 className="section-title">Serviços Oferecidos</h2>
+          <ul>
+            <li>Desenvolvimento de sistemas web e desktop</li>
+            <li>Automação de processos</li>
+            <li>Consultoria em Inteligência Artificial</li>
+            <li>Criação de protótipos eletrônicos</li>
+            <li>Desenvolvimento de APIs</li>
+            <li>Banco de dados e integração de sistemas</li>
+            <li>Treinamento em programação e tecnologia</li>
+          </ul>
+        </section>
         <section className="section contato-section">
           <h2 className="section-title">Contato</h2>
           <div className="contato-lista">
