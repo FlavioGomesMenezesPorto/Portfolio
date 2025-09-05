@@ -1,23 +1,31 @@
 const projetos = [
   {
-    titulo: 'IntelliWrite',
-    descricao: 'Uma ferramenta de escrita inteligente que ajuda os usuários a escrever de forma mais eficaz.',
-    link: '/projeto-intelliwrite'
+    titulo: 'Protótipo de Óculos para Deficientes Visuais',
+    periodo: '2022',
+    descricao: 'Projeto Integrado — Desenvolvimento de protótipo para acessibilidade.',
+    link: '',
+    linguagens: 'C++'
   },
   {
-    titulo: 'Carrinho de Compras',
-    descricao: 'Um carrinho de compras online com recursos como adicionar ao carrinho, remover do carrinho e checkout.',
-    link: '/projeto-carrinho'
+    titulo: 'Carrinho Autônomo para Varejo',
+    periodo: '2023',
+    descricao: 'Projeto Integrado — Construção de protótipo de carrinho autônomo para automatização de empresas de varejo.',
+    link: '',
+    linguagens: 'C++'
   },
   {
-    titulo: 'Óculos Shop',
-    descricao: 'Uma loja online de óculos com uma ampla seleção de estilos e marcas.',
-    link: '/projeto-oculos'
+    titulo: 'INTELLIWRITE AI',
+    periodo: 'Iniciação Científica',
+    descricao: 'Plataforma de análise e correção automática de redações usando Machine Learning e Python.',
+    link: '',
+    linguagens: 'Python'
   },
   {
-    titulo: 'Prontuario Eletronico',
-    descricao: 'Um sistema de prontuário eletrônico para gerenciamento de informações de pacientes.',
-    link: '/projeto-prontuario-eletronico'
+    titulo: 'Prontuário Eletrônico',
+    periodo: '2025',
+    descricao: 'Sistema para gestão de prontuários eletrônicos em clínicas e hospitais.',
+    link: '/prontuarios-1.0.jar',
+    link_texto: '⬇️ Baixar Prontuário Eletrônico (Java)'
   }
 ];
 

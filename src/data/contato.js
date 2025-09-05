@@ -13,6 +13,11 @@ const contato = [
     texto: 'LinkedIn',
     link: 'https://www.linkedin.com/in/flavio-porto-a50807251',
     emoji: '💼'
+  },
+  {
+    texto: 'GitHub',
+    link: 'https://github.com/FlavioGomesMenezesPorto',
+    emoji: '🐙'
   }
 ];
 
