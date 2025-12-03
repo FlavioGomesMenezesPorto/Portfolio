@@ -21,11 +21,11 @@ const projetos = [
     linguagens: 'Python'
   },
   {
-    titulo: 'Prontuário Eletrônico',
+    titulo: 'Prontuario Eletrônico',
     periodo: '2025',
-    descricao: 'Sistema para gestão de prontuários eletrônicos em clínicas e hospitais.',
-    link: '/prontuarios-1.0.jar',
-    link_texto: '⬇️ Baixar Prontuário Eletrônico (Java)'
+    descricao: 'Sistema para gestão de prontuários eletrônicos em clínicas e hospitais, feito para o pessoal do curso de Tecnico Enfermagem do Senac Minas.',
+    link: '',
+    linguagens: 'Java'
   }
 ];
 

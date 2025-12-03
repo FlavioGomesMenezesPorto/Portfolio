@@ -38,7 +38,8 @@ const habilidades = [
   {
     categoria: 'Ferramentas',
     lista: [
-      'Excel Avançado'
+      'Excel Avançado',
+      'Microsoft Power Bi'
     ]
   }
 ];
